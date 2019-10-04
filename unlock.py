@@ -21,5 +21,3 @@ while True:
 
 	pyautogui.press('numlock')
 
-
-    #print("I kicked in")
