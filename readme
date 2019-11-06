@@ -1,5 +1,30 @@
-- Install python.
-- pip install pyautogui  --> script uses this library
-- pip install pyinstaller  --> to compile
-- pip install PyQt5  --> compilation needs this library
-- pyinstaller -w unlock.py  --> this will compile
+Prelims:
+
+- Install Anaconda. The quickest way to manage python on Windows --> https://www.anaconda.com/distribution/
+
+- Launch Anaconda CMD.
+
+- Additional package is pyautogui. Install this by executing: pip install pyautogui 
+
+- Copy the unlock.py script from this repo and save this to your working directory.
+
+- With Conda CMD, change directory to where you saved the unlock.py.
+
+- Execute: pythonw unlock.py.
+
+- To run the script -> pythonw unlock.py  # this will run the unlock script in the background.
+
+Tidbits:
+
+- The script will press the NUM LOCK key for you every 480 seconds. You can set that time in the script, look for time.sleep.
+
+- It also generates a logfile to know if the script ran.
+
+Optionals:
+  - pip install pyinstaller  --> to compile
+  - pip install PyQt5  --> compilation needs this pack
+  - pyinstaller -w unlock.py  --> this will compile
+  
+  Disclaimer:
+  
+  - By using the script/program/app/software, you agree that I don't take any blame for whatever that could happen.
